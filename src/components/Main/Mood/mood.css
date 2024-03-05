@@ -1,0 +1,217 @@
+.mood-tracker-app {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 48px;
+}
+
+.mood-emotions button {
+  border-radius: 8px;
+  width: 15vw;
+  height: 15vh;
+  border: none;
+  color: #333;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  cursor: pointer;
+}
+
+.mood-btn {
+  background: white;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.mood-btn:hover {
+  /* border: 2px solid #25ced1; */
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.mood-emotions {
+  display: flex;
+  gap: 20px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+}
+
+.terrible-img {
+  width: 40%;
+}
+
+.mood-yellow {
+  color: #ffd305;
+}
+
+.tracker-blue {
+  color: #31d1d4;
+}
+
+.mood-track {
+  padding-top: 80px;
+}
+
+.save-mood {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 30px;
+}
+
+.mood-img {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-top: 20px;
+  margin-bottom: -10px;
+}
+
+.activity-input {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.weather-options {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+  padding-bottom: 40px;
+}
+.weather-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  cursor: pointer;
+}
+
+.weather-img {
+  width: 4vw;
+}
+
+.weather-img:active {
+  transform: scale(1.2);
+}
+
+.weather-gif {
+  width: 7vw;
+}
+
+.weather-btns {
+  display: flex;
+  flex-direction: column;
+  gap: 89px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  z-index: 0;
+}
+
+.weather-box {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  gap: 80px;
+}
+
+.weather-text {
+  z-index: 2;
+}
+
+.weather-div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+.weather-img:hover {
+  transform: scale(1.2);
+  transition: transform 0.3s ease;
+}
+
+.save-mood {
+  color: #333;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sel-wc {
+  color: #31d1d4;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.sel-mood {
+  color: #666;
+  font-family: Roboto;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+}
+
+.sel-sa {
+  color: #ffd305;
+  font-family: Roboto;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+
+.add-notes::placeholder {
+  padding: 10px;
+}
+
+.add-notes {
+  width: 40%;
+  height: 20vh;
+  border-radius: 9px;
+  margin-bottom: 30px;
+}
+
+.mood-save {
+  display: inline-flex;
+  padding: 12px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 100px;
+  background: #24b8bb;
+  color: #fff;
+  font-family: Roboto;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  border: none;
+  cursor: pointer;
+  margin-bottom: 60px;
+}

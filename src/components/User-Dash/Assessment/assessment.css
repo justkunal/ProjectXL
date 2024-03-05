@@ -1,0 +1,142 @@
+.assessment-first {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  z-index: 0;
+}
+
+.assessment-first:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.assessment-first p {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  padding-top: 20px;
+  z-index: 0;
+}
+
+.assessment-first button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  z-index: 0;
+}
+
+.assessment-first button:hover {
+  background-color: #0e91f0;
+}
+
+.assess-question {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  z-index: 0;
+}
+
+.option-ass {
+  display: flex;
+  text-align: left;
+  z-index: 0;
+}
+
+.assess-question {
+  text-align: center;
+  margin-top: 50px;
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: box-shadow 0.3s;
+  display: flex; /* Add this line */
+  align-items: flex-start; /* Add this line */
+  padding-left: 40%;
+  z-index: 0;
+}
+
+.assess-question:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.assess-question h3 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  z-index: 0;
+}
+
+.option-ass {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: 0;
+}
+
+.option-ass input[type="radio"] {
+  margin-right: 10px;
+}
+
+.option-ass label {
+  cursor: pointer;
+}
+
+.assess-question button {
+  padding: 10px 20px;
+  font-size: 18px;
+  background-color: #2196f3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.assess-question button:hover {
+  background-color: #0e91f0;
+}
+
+.next-sub {
+  display: flex;
+  gap: 32px;
+}
+
+.submitted-pop {
+  width: 20%;
+  height: 30%;
+  border-radius: 10px;
+  background: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 40%;
+  position: relative;
+  top: 35%;
+}
+
+.pop-black {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100vw;
+  height: 100vh;
+  z-index: 1000;
+  position: relative;
+  bottom: 342px;
+}
+
+.flag-img {
+  width: 20%;
+}
